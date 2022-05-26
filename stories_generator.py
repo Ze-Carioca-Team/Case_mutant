@@ -51,7 +51,7 @@ examples = {
   "AA": "[Sistema] Passe a chave [chave_pix] para PIX",
   "V" : "[Sistema] Pergunte se precisa de troco",
   "W" : "[Cliente] [troco]",
-  "X" : "[Sistema] Confirme o pedido. Informe que está sendo preparado e que vai demorar [tempo_preparo] minutos",
+  "X" : "[Sistema] Confirme o pedido. Informe que está sendo preparado e que vai demorar [tempo_preparo]",
   "AB": "[Cliente] Avise que o pix foi feito",
   "J" : "",
 }
