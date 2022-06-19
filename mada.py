@@ -18,7 +18,7 @@ def replicate(flows, utterances, rate):
         for _ in range(rate):
             curr = []
             for i, f in enumerate(flow):
-                curr.append(random.choice(utterances["action" if i%2 else "intent"][f]))
+                curr.append(random.choice(utterances["action" if not i%2 else "intent"][f]))
             samples.append(curr)
     return samples
 
@@ -26,14 +26,14 @@ def replicate(flows, utterances, rate):
 def parse_args():
     parser = argparse.ArgumentParser(description="Applying MADA on a dialog dataset formatted in the MultiWOZ pattern.")
     parser.add_argument("--filename", type=str, default="dialogs.json", help="Path to dialogs dataset.")
-    parser.add_argument("--rate", type=int, default=20, help="Replication.")
+    parser.add_argument("--rate", type=int, default=100, help="Replication.")
     parser.add_argument("--sample-size", dest='sample', type=int, default=5000, help="Size of sample to pick.")
     parser.add_argument("--no-augment", default=True, help="Augment dataset.", dest='augment', action="store_false")
     return parser.parse_args()
 
 def main():
     args = parse_args()
-    possible_flows = []
+    possible_flows = {}
     utt_counter = defaultdict(int)
     intent_sample = {"intent":defaultdict(list), "action":defaultdict(list)}
     with open(args.filename) as fin:
@@ -42,17 +42,24 @@ def main():
     for dialog in data["dialogs"]:
         dialog["id"] = str(dialog["id"])
         curr_flow = []
-        for turn in dialog["turns"]:
-            agent = "intent" if turn["turn-num"] % 2 == 1 else "action"
+        for i, turn in enumerate(dialog["turns"]):
+            agent = "intent" if i % 2 == 1 else "action"
             utt = turn[agent]
             utt_counter[utt] += 1
             curr_flow.append(utt)
             intent_sample[agent][utt].append(turn)
-        if curr_flow not in possible_flows:
-            possible_flows.append(curr_flow)
+        curr_flow = tuple(curr_flow)
+        if curr_flow in possible_flows:
+            possible_flows[curr_flow] += 1
+        else:
+            possible_flows[curr_flow] = 1
+    counterf = defaultdict(int)
+    for k,v in possible_flows.items():
+        counterf[k[0]] += v
+    print(counterf)
     for count in sorted(utt_counter.items(), key=lambda x: x[1]):
         print(count)
-    samples = replicate(possible_flows, intent_sample, args.rate)
+    samples = replicate(possible_flows.keys(), intent_sample, args.rate)
     out_data = []
     for i, dialog in enumerate(tqdm(samples)):
         new_dialog = []
