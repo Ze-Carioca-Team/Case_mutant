@@ -3,7 +3,6 @@
     "intents": [
       "[pergunta_sabor]",
       "[informa_pedido]",
-      "[confirma_itens]",
       "[confirmar]",
       "[informa_endereco]",
       "[informa_pagamento]",
@@ -22,7 +21,7 @@
       "fazer_pedido",
       "informa_pedido",
       "altera_pedido",
-      "confirma_itens",
+      "confirmar",
       "informa_endereco",
       "informa_pagamento",
       "confirma_pix",
@@ -69,7 +68,7 @@
       "[pergunta_entrega]",
       "[pergunta_bandeira]",
       "[agradecimento]",
-      "[confirma_itens]",
+      "[confirmar]",
       "[fora_da_historia]",
       "[pergunta_itens]",
       "pergunta_pedido",
@@ -88,7 +87,7 @@
       "agradecimento",
       "resposta_sabor",
       "pergunta_itens",
-      "confirma_itens",
+      "confirmar",
       "fora_da_historia",
       "confirma_pix",
       "informa_pedido",
@@ -394,10 +393,10 @@
           "speaker": "client",
           "utterance": "os itens estão corretos",
           "utterance_delex": "os itens estão corretos",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 9,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -489,12 +488,12 @@
         },
         {
           "speaker": "agent",
-          "utterance": "Boa tarde, como posso te ajudar?",
-          "utterance_delex": "Boa tarde, como posso te ajudar?",
-          "action": "[como_ajudar]",
+          "utterance": "Boa tarde, qual seu pedido?",
+          "utterance_delex": "Boa tarde, qual seu pedido?",
+          "action": "[pergunta_pedido]",
           "slot-values": {},
           "turn-num": 2,
-          "intent": "[como_ajudar]"
+          "intent": "[pergunta_pedido]"
         },
         {
           "speaker": "client",
@@ -540,10 +539,10 @@
           "speaker": "client",
           "utterance": "Isto mesmo, o pedido está correto.",
           "utterance_delex": "Isto mesmo, o pedido está correto.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -600,10 +599,10 @@
           "speaker": "client",
           "utterance": "É isso mesmo. Agora está certinho.",
           "utterance_delex": "É isso mesmo. Agora está certinho.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 15,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -717,10 +716,10 @@
           "speaker": "client",
           "utterance": "É isso mesmo. O pedido está correto.",
           "utterance_delex": "É isso mesmo. O pedido está correto.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -1031,10 +1030,10 @@
           "speaker": "client",
           "utterance": "Isso mesmo",
           "utterance_delex": "Isso mesmo",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -1179,10 +1178,10 @@
           "speaker": "client",
           "utterance": "eh isso mesmo",
           "utterance_delex": "eh isso mesmo",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 9,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -1323,10 +1322,10 @@
           "speaker": "client",
           "utterance": "Isso mesmo",
           "utterance_delex": "Isso mesmo",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -1471,10 +1470,10 @@
           "speaker": "client",
           "utterance": "eh isso mesmo",
           "utterance_delex": "eh isso mesmo",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 9,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -1628,10 +1627,10 @@
           "speaker": "client",
           "utterance": "É isto mesmo. :)",
           "utterance_delex": "É isto mesmo. :)",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -1772,10 +1771,10 @@
           "speaker": "client",
           "utterance": "Exato!",
           "utterance_delex": "Exato!",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -1891,10 +1890,10 @@
           "speaker": "client",
           "utterance": "É isto mesmo. :)",
           "utterance_delex": "É isto mesmo. :)",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -2064,10 +2063,10 @@
           "speaker": "client",
           "utterance": "Certinho, isso mesmo.",
           "utterance_delex": "Certinho, isso mesmo.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -2230,10 +2229,10 @@
           "speaker": "client",
           "utterance": "Exato!",
           "utterance_delex": "Exato!",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -2547,10 +2546,10 @@
           "speaker": "client",
           "utterance": "não, só isso mesmo.",
           "utterance_delex": "não, só isso mesmo.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -2614,8 +2613,8 @@
       "turns": [
         {
           "speaker": "client",
-          "utterance": "oi, boa noite! blza ?",
-          "utterance_delex": "oi, boa noite! blza ?",
+          "utterance": "oi, boa noite!",
+          "utterance_delex": "oi, boa noite!",
           "intent": "[cumprimenta]",
           "slot-values": {},
           "turn-num": 1,
@@ -2623,8 +2622,8 @@
         },
         {
           "speaker": "agent",
-          "utterance": "Sim, tudo blza. No que posso te ajudar ?",
-          "utterance_delex": "Sim, tudo blza. No que posso te ajudar ?",
+          "utterance": "Boa noite. No que posso te ajudar ?",
+          "utterance_delex": "Boa noite. No que posso te ajudar ?",
           "action": "[como_ajudar]",
           "slot-values": {},
           "turn-num": 2,
@@ -2641,8 +2640,8 @@
         },
         {
           "speaker": "agent",
-          "utterance": "pode me falar quais pizzas você quer",
-          "utterance_delex": "pode me falar quais pizzas você quer",
+          "utterance": "pode me falar quais pizzas você quer?",
+          "utterance_delex": "pode me falar quais pizzas você quer?",
           "action": "[pergunta_pedido]",
           "slot-values": {},
           "turn-num": 4,
@@ -2674,10 +2673,10 @@
           "speaker": "client",
           "utterance": "isso mesmo",
           "utterance_delex": "isso mesmo",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -2752,10 +2751,10 @@
           "speaker": "client",
           "utterance": "é isso mesmo.",
           "utterance_delex": "é isso mesmo.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 15,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -2869,10 +2868,10 @@
           "speaker": "client",
           "utterance": "sim é isso mesmo",
           "utterance_delex": "sim é isso mesmo",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -2999,10 +2998,10 @@
           "speaker": "client",
           "utterance": "é isso",
           "utterance_delex": "é isso",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -3107,10 +3106,10 @@
           "speaker": "client",
           "utterance": "exato",
           "utterance_delex": "exato",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -3253,10 +3252,10 @@
           "speaker": "client",
           "utterance": "perfeito",
           "utterance_delex": "perfeito",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -3381,10 +3380,10 @@
           "speaker": "client",
           "utterance": "exato, são esses os itens",
           "utterance_delex": "exato, são esses os itens",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -3569,10 +3568,10 @@
           "speaker": "client",
           "utterance": "é isso mesmo",
           "utterance_delex": "é isso mesmo",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 13,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -3688,12 +3687,12 @@
           "speaker": "agent",
           "utterance": "Ótimo, confirmando: 2 Abobrinha com aveia ; Meia Rúcula e meia Califórnia ; 1 Camarão",
           "utterance_delex": "Ótimo, confirmando: [itens]",
-          "action": "[confirma_itens]",
+          "action": "[confirmar]",
           "slot-values": {
             "itens": "2 Abobrinha com aveia ; Meia Rúcula e meia Califórnia ; 1 Camarão"
           },
           "turn-num": 4,
-          "intent": "[confirma_itens]"
+          "intent": "[confirmar]"
         },
         {
           "speaker": "client",
@@ -3807,10 +3806,10 @@
           "speaker": "client",
           "utterance": "é exatamente isso",
           "utterance_delex": "é exatamente isso",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -3935,10 +3934,10 @@
           "speaker": "client",
           "utterance": "é isso mesmo amigo",
           "utterance_delex": "é isso mesmo amigo",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -4081,10 +4080,10 @@
           "speaker": "client",
           "utterance": "são esses itens",
           "utterance_delex": "são esses itens",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -4263,10 +4262,10 @@
           "speaker": "client",
           "utterance": "tá correto",
           "utterance_delex": "tá correto",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -4429,10 +4428,10 @@
           "speaker": "client",
           "utterance": "isso mesmo",
           "utterance_delex": "isso mesmo",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 9,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -4575,10 +4574,10 @@
           "speaker": "client",
           "utterance": "isso mesmo",
           "utterance_delex": "isso mesmo",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -4717,10 +4716,10 @@
           "speaker": "client",
           "utterance": "isso mesmo.",
           "utterance_delex": "isso mesmo.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -4843,10 +4842,10 @@
           "speaker": "client",
           "utterance": "Isso mesmo!",
           "utterance_delex": "Isso mesmo!",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -5018,10 +5017,10 @@
           "speaker": "client",
           "utterance": "Isto mesmo. Estão corretos.",
           "utterance_delex": "Isto mesmo. Estão corretos.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 9,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -5193,10 +5192,10 @@
           "speaker": "client",
           "utterance": "Isso mesmo! Os itens estão corretos sim.",
           "utterance_delex": "Isso mesmo! Os itens estão corretos sim.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 9,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -5310,10 +5309,10 @@
           "speaker": "client",
           "utterance": "Sim, está correto. Demora muito a entrega:",
           "utterance_delex": "Sim, está correto.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -5445,10 +5444,10 @@
           "speaker": "client",
           "utterance": "correto",
           "utterance_delex": "correto",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -5505,10 +5504,10 @@
           "speaker": "client",
           "utterance": "isso, confirmado",
           "utterance_delex": "isso, confirmado",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 11,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -5757,10 +5756,10 @@
           "speaker": "client",
           "utterance": "Isso mesmo, certinho! ",
           "utterance_delex": "Isso mesmo, certinho! ",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 9,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -6087,10 +6086,10 @@
           "speaker": "client",
           "utterance": "Sim, exatamente",
           "utterance_delex": "Sim, exatamente",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -6244,10 +6243,10 @@
           "speaker": "client",
           "utterance": "Perfeito, esta correto",
           "utterance_delex": "Perfeito, esta correto",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -6386,10 +6385,10 @@
           "speaker": "client",
           "utterance": "Sim, exatamente",
           "utterance_delex": "Sim, exatamente",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -6572,10 +6571,10 @@
           "speaker": "client",
           "utterance": "Isso mesmo, certinho! ",
           "utterance_delex": "Isso mesmo, certinho! ",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 9,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -6727,10 +6726,10 @@
           "speaker": "client",
           "utterance": "Perfeito, esta correto",
           "utterance_delex": "Perfeito, esta correto",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -6942,10 +6941,10 @@
           "speaker": "client",
           "utterance": "Sim, os itens do pedido estão corretos.",
           "utterance_delex": "Sim, os itens do pedido estão corretos.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 13,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -7097,10 +7096,10 @@
           "speaker": "client",
           "utterance": "Correto.",
           "utterance_delex": "Correto.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -7312,10 +7311,10 @@
           "speaker": "client",
           "utterance": "Sim, está correto agora.",
           "utterance_delex": "Sim, está correto agora.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 13,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -7410,10 +7409,10 @@
           "speaker": "client",
           "utterance": "Agora está correto.",
           "utterance_delex": "Agora está correto.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 23,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -7536,10 +7535,10 @@
           "speaker": "client",
           "utterance": "Correto. Tá certinho.",
           "utterance_delex": "Correto. Tá certinho.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -7671,10 +7670,10 @@
           "speaker": "client",
           "utterance": "Sim, os itens estão corretos.",
           "utterance_delex": "Sim, os itens estão corretos.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -7826,10 +7825,10 @@
           "speaker": "client",
           "utterance": "É isso mesmo.",
           "utterance_delex": "É isso mesmo.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -8030,10 +8029,10 @@
           "speaker": "client",
           "utterance": "Sim, tá correto.",
           "utterance_delex": "Sim, tá correto.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 11,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -8167,10 +8166,10 @@
           "speaker": "client",
           "utterance": "Correto. Tá certinho.",
           "utterance_delex": "Correto. Tá certinho.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -8302,10 +8301,10 @@
           "speaker": "client",
           "utterance": "Sim, os itens estão corretos.",
           "utterance_delex": "Sim, os itens estão corretos.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -8515,10 +8514,10 @@
           "speaker": "client",
           "utterance": "Sim, tá correto.",
           "utterance_delex": "Sim, tá correto.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 11,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -8668,10 +8667,10 @@
           "speaker": "client",
           "utterance": "Perfeito, o pedido está correto!",
           "utterance_delex": "Perfeito, o pedido está correto!",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -8821,10 +8820,10 @@
           "speaker": "client",
           "utterance": "Isso mesmo.",
           "utterance_delex": "Isso mesmo.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -8969,10 +8968,10 @@
           "speaker": "client",
           "utterance": "Isso!",
           "utterance_delex": "Isso!",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 9,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -9069,10 +9068,10 @@
           "speaker": "client",
           "utterance": "Perfeito, Obrigada :)",
           "utterance_delex": "Perfeito, Obrigada :)",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 19,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -9215,10 +9214,10 @@
           "speaker": "client",
           "utterance": "Poderia listar os itens para eu confirmar ?",
           "utterance_delex": "Poderia listar os itens para eu confirmar ?",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -9235,10 +9234,10 @@
           "speaker": "client",
           "utterance": "Isso mesmo, confirmado !",
           "utterance_delex": "Isso mesmo, confirmado !",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -9392,10 +9391,10 @@
           "speaker": "client",
           "utterance": "Isso!",
           "utterance_delex": "Isso!",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 9,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -9492,10 +9491,10 @@
           "speaker": "client",
           "utterance": "Perfeito, Obrigada :)",
           "utterance_delex": "Perfeito, Obrigada :)",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 19,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -9667,10 +9666,10 @@
           "speaker": "client",
           "utterance": "Isso mesmo, confirmado !",
           "utterance_delex": "Isso mesmo, confirmado !",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -9775,10 +9774,10 @@
           "speaker": "client",
           "utterance": "Isso mesmo, está correto",
           "utterance_delex": "Isso mesmo, está correto",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -9883,10 +9882,10 @@
           "speaker": "client",
           "utterance": "Correto!",
           "utterance_delex": "Correto!",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -10038,10 +10037,10 @@
           "speaker": "client",
           "utterance": "Sim, correto! ",
           "utterance_delex": "Sim, correto! ",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -10164,10 +10163,10 @@
           "speaker": "client",
           "utterance": "Está certo sim",
           "utterance_delex": "Está certo sim",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -10184,10 +10183,10 @@
           "speaker": "client",
           "utterance": "Sim, esta certo",
           "utterance_delex": "Sim, esta certo",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 9,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -10292,10 +10291,10 @@
           "speaker": "client",
           "utterance": "Isso mesmo, está correto",
           "utterance_delex": "Isso mesmo, está correto",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -10427,10 +10426,10 @@
           "speaker": "client",
           "utterance": "Certinho! Isso mesmo!",
           "utterance_delex": "Certinho! Isso mesmo!",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -10487,10 +10486,10 @@
           "speaker": "client",
           "utterance": "Correto!",
           "utterance_delex": "Correto!",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 13,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -10613,10 +10612,10 @@
           "speaker": "client",
           "utterance": "Está correto",
           "utterance_delex": "Está correto",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 7,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -10691,10 +10690,10 @@
           "speaker": "client",
           "utterance": "certinho! isso mesmo.",
           "utterance_delex": "certinho! isso mesmo.",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 15,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
@@ -10779,10 +10778,10 @@
           "speaker": "client",
           "utterance": "Correto!",
           "utterance_delex": "Correto!",
-          "intent": "[confirma_itens]",
+          "intent": "[confirmar]",
           "slot-values": {},
           "turn-num": 5,
-          "action": "[confirma_itens]"
+          "action": "[confirmar]"
         },
         {
           "speaker": "agent",
