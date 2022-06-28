@@ -63,10 +63,10 @@ def main():
     out_data = []
     for i, dialog in enumerate(tqdm(samples)):
         new_dialog = []
-        current_values = {}
         for num, turn in enumerate(dialog):
             new_turn = turn.copy()
             new_turn["turn-num"] = num
+            current_values = {}
             if turn["speaker"] == "client":
                 if args.augment and random.random() >= .5:
                     random.seed(20211109+i)
